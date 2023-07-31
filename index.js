@@ -8,5 +8,10 @@ window.onscroll = function () {
     header.classList.remove("navbarDark");
   }
 };
-
+var typed = new Typed(".typing", {
+  strings: ["Student", "Problem Solver","Developer"],
+  typeSpeed: 150,
+  backSpeed: 100,
+  loop: true
+});
 
